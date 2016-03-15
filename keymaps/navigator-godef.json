@@ -1,0 +1,6 @@
+{
+  "atom-text-editor[data-grammar~=\"go\"]:not([mini])": {
+    "alt-cmd-g": "golang:godef",
+    "alt-cmd-shift-g": "golang:godef-return"
+  }
+}
