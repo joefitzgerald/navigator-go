@@ -1,0 +1,7 @@
+".platform-darwin atom-text-editor[data-grammar='source go']:not([mini])":
+  "alt-cmd-g": "navigator-godef:godef"
+  "alt-cmd-shift-g": "navigator-godef:godef-return"
+
+":not(.platform-darwin) atom-text-editor[data-grammar='source go']:not([mini])":
+  "alt-ctrl-g": "navigator-godef:godef"
+  "alt-ctrl-shift-g": "navigator-godef:godef-return"
