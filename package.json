@@ -9,7 +9,7 @@
     "symbol"
   ],
   "main": "./lib/main",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "repository": "https://github.com/joefitzgerald/navigator-godef",
   "license": "Apache-2.0",
   "engines": {
