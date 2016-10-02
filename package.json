@@ -1,5 +1,5 @@
 {
-  "name": "navigator-godef",
+  "name": "navigator-go",
   "description": "Go to definition for the go language.",
   "keywords": [
     "go",
