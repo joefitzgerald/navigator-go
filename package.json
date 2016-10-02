@@ -10,15 +10,15 @@
   ],
   "main": "./lib/main",
   "version": "1.1.1",
-  "repository": "https://github.com/joefitzgerald/navigator-godef",
+  "repository": "https://github.com/joefitzgerald/navigator-go",
   "license": "Apache-2.0",
   "engines": {
     "atom": ">=1.5.3 <2.0.0"
   },
   "author": "Joe Fitzgerald <jfitzgerald@pivotal.io> (http://github.com/joefitzgerald)",
-  "homepage": "https://atom.io/packages/navigator-godef",
+  "homepage": "https://atom.io/packages/navigator-go",
   "bugs": {
-    "url": "https://github.com/joefitzgerald/navigator-godef/issues"
+    "url": "https://github.com/joefitzgerald/navigator-go/issues"
   },
   "dependencies": {
     "atom-package-deps": "4.2.0"

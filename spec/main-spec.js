@@ -1,13 +1,13 @@
 'use babel'
 /* eslint-env jasmine */
 
-describe('navigator-godef', () => {
+describe('navigator-go', () => {
   let mainModule = null
 
   beforeEach(() => {
     waitsForPromise(() => {
       return atom.packages.activatePackage('go-config').then(() => {
-        return atom.packages.activatePackage('navigator-godef')
+        return atom.packages.activatePackage('navigator-go')
       }).then((pack) => {
         mainModule = pack.mainModule
       })
@@ -18,7 +18,7 @@ describe('navigator-godef', () => {
     })
   })
 
-  describe('when the navigator-godef package is activated', () => {
+  describe('when the navigator-go package is activated', () => {
     it('activates successfully', () => {
       expect(mainModule).toBeDefined()
       expect(mainModule).toBeTruthy()
