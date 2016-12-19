@@ -6,8 +6,8 @@
         {
           "label": "Go",
           "submenu": [
-            { "label": "Go To Definition", "command": "golang:godef" },
-            { "label": "Return From Definition", "command": "golang:godef-return" }
+            { "label": "Go To Definition", "command": "navigator-godef:godef" },
+            { "label": "Return From Definition", "command": "navigator-godef:godef-return" }
           ]
         }
       ]

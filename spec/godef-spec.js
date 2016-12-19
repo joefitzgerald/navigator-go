@@ -177,7 +177,7 @@ describe "godef", ->
       expect(range).toEqual([[0, 4], [0, 11]])
 
   describe "when go-plus is loaded", ->
-    it "should have registered the golang:godef command",  ->
+    it "should have registered the navigator-godef:godef command",  ->
       currentCommands = atom.commands.findCommands({target: editorView})
       godefCommand = (cmd for cmd in currentCommands when cmd.name is dispatch.godef.godefCommand)
       expect(godefCommand.length).toEqual(1)
